@@ -1,0 +1,889 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4039518437579075"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger</title>
+<style>
+    .headerPrincipal {
+        gap: 10px;
+    }
+
+    .contenedor {
+        background: blue;
+        display: grid;
+        grid-template-columns: 1.5fr 0.5fr;
+        justify-content: space-between;
+        background-color: #f4faf9;
+        width: 100%;
+        height: 220px
+    }
+
+    .headerPrincipal-titulo {
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 5px;
+        text-align: end;
+        background-color: #5E9EDC;
+        color: #FFF;
+        margin-right: 2px;
+    }
+
+    .menuPrincipal-Links {
+        border-style: double;
+        padding: 5px;
+        background-color: #FFF;
+        text-decoration: none;
+        transition: .5s;
+        display: block;
+        border-radius: 5px;
+        border: 5px solid #9799A6;
+        margin: 5px 0 0 5px;
+        justify-content: space-between;
+        text-align: center;
+        box-shadow: 4px 2px 2px 2px #5E9EDC;
+    }
+
+    .menuPrincipal-Links:hover {
+        color: #FFF;
+        background-color: #9799A6;
+    }
+
+    .main-menuPrincipal {
+        margin-right: 10px;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .container3 {
+        background-color: #5E9EDC;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .videoSobre-sobre-list {
+        list-style-type: none;
+        font-size: 1.3em;
+        line-height: 2;
+    }
+
+    .videoSobre-video {
+        width: 550px;
+        height: auto;
+    }
+
+    .container3 .videoSobre-button {
+        background-color: transparent;
+        position: absolute;
+        top: 265px;
+        left: 300px;
+        background-color: white;
+        box-shadow: 4px 2px 2px 2px #5E9EDC;
+        text-shadow: rgb(131, 15, 241);
+    }
+
+    .videoSobre-sobre-item {
+        text-align: center;
+    }
+
+    #contrasena {
+        padding: 80px 10px 20px 10px;
+        display: flex;
+        justify-content: space-around;
+        margin: 40px;
+        height: auto;
+        width: auto;
+        transition: .3s;
+        text-shadow: 2px 4px 2px #CCC;
+        border-style: double;
+        box-shadow: 4px 2px 2px 2px #5E9EDC;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .contenidoPrincipal {
+        text-align: center;
+        text-decoration: none;
+        margin-left: 40px;
+        list-style-type: none;
+        padding: 20px;
+        background-color: #FFF;
+
+    }
+
+    .contenidoPrincipal .contenidoPrincipal-link {
+        padding-top: 20px;
+        margin-left: 40px;
+
+    }
+
+    .contenidoPrincipal-link {
+        list-style-type: none;
+
+    }
+
+    #contrasena2 {
+        width: 230px;
+        height: 300px;
+        margin: 10px auto;
+        padding-top: 0px;
+        border: groove 10px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family:  cursive;
+        color: white;
+        overflow: hidden;
+        transition: 3.5s;
+        border-radius: 30%;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 0px;
+
+    }
+
+    .contrasenaImagenes {
+        width: 50%;
+    }
+
+    /* ////// */
+    .container1 {
+        width: 94%;
+        margin: 10px;
+        position: absolute;
+        left: 0;
+    }
+
+    .headerPrincipal1 {
+        background-color: #5E9EDC;
+        padding: 20px 0;
+
+    }
+
+    .subtitulo1 {
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        width: auto;
+        background: linear-gradient(rgb(48, 32, 32), rgb(220, 160, 170));
+        text-shadow: 5px 4px 8px #1c1a1aaa;
+        color: white;
+        transition: .5s;
+        line-height: 2;
+        list-style: none;
+    }
+
+    .contenidoPrincipal1 {
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        background: linear-gradient(rgb(48, 32, 32), rgb(220, 160, 170));
+        transition: .3s;
+        box-shadow: 5px 4px 8px #1c1a1aaa;
+        color: white;
+        transition: 3s;
+        padding: 10px 10px;
+        border-style: double;
+        line-height: 2;
+
+
+    }
+
+    #parts-content {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px;
+    }
+
+
+    .contenidoPrincipalMain1 {
+        border: groove 20px;
+        border-radius: 100%;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        background-color: #FFF;
+        text-align: center;
+        margin: .5rem;
+        padding: 0rem;
+        transition: .3s;
+        box-shadow: 2px 2px 2px #CCC;
+        position: relative;
+        list-style: none;
+        quotes: none;
+    }
+
+    .img1 {
+        width: 480px;
+        border: groove 8px;
+    }
+
+    .color {
+        padding-left: 100px;
+        background: linear-gradient(rgb(48, 32, 32), rgb(220, 160, 170));
+        transition: 3s;
+        box-shadow: 5px 4px 8px #1c1a1aaa;
+        line-height: 2;
+        list-style: none;
+        width: 60%;
+    }
+
+    #login-trigger {
+        list-style-type: none;
+    }
+
+    #auth-text {
+        font-weight: bold;
+        color: #221f1f;
+        list-style: none;
+        text-decoration: none;
+
+    }
+
+
+
+    #login-content {
+        margin: 20px;
+
+      position: absolute;
+        top: 555px;
+        right:0;
+        left: 0;
+        z-index: 999;
+        background: #5E9EDC;
+        padding: 5px;
+        border: 10px solid #CCC;
+        width: 200px;
+        border-style: double;
+        box-shadow: 4px 2px 2px 2px #5E9EDC;
+
+    }
+
+    #login-form {
+        display: none;
+    }
+
+    #login-content input {
+        margin-bottom: 3px;
+        padding: 10px;
+        width: 90%;
+        border: 1px solid #CCC;
+    }
+
+    #login-content label {
+        cursor: pointer;
+        font-family: Proxima Nova, helvetica neue, helvetica, sans-serif;
+        color: #002D45;
+    }
+
+    #login-content #register-form {
+        display: none;
+    }
+
+    #login-content #forgotten-form {
+        display: none;
+    }
+
+    #login-content,
+    #after-reset,
+    #if-error,
+    #if-reg-error {
+        display: none;
+    }
+
+    #login-content .auth-link {
+        cursor: pointer;
+        font-family: Proxima Nova, helvetica neue, helvetica, sans-serif;
+        color: #002D45;
+        box-shadow: 2px 2px 2px #191818aa;
+        background: #ffffff
+    }
+
+    #forgotten-link,
+    #reset-response,
+    #after-reset,
+    #login-link-modal,
+    #if-error,
+    #if-reg-error {
+        cursor: pointer;
+        font-family: Proxima Nova, helvetica neue, helvetica, sans-serif;
+        color: #002D45;
+        font-size: 80%;
+    }
+
+    #login-link-modal {
+        font-size: 120%;
+    }
+
+
+    .salir {
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0px;
+        padding: 10px;
+        padding-left: 15px;
+        border-style: double;
+    }
+
+    .catalog-part {
+        border: groove 1px rgb(180, 180, 216);
+        width: 400px;
+        height: auto;
+        margin: 10px 10px;
+        font-size: 8px;
+        background: linear-gradient(45deg,
+                rgb(232, 142, 142) 20%,
+                rgb(0, 0, 6) 70%,
+                rgb(232, 142, 142) 10%) center center/10px 10px,
+            rgb(57, 78, 68);
+        overflow: hidden;
+        transition: .3s;
+        box-shadow: 5px 2px 5px #191818aa;
+    }
+
+    .imagen {
+        width: 90%;
+        margin: 20px 20px;
+    }
+
+    .cardDowload {
+        position: relative;
+        top: 10px;
+        left: 60px;
+    }
+
+
+    .subtituloVideo {
+        font-weight: bold;
+        font-size: 32px;
+        margin: auto 50%;
+    }
+
+    .contenidoPrincipalVideo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        transition: .3s;
+        padding: 0px;
+    }
+
+    #parts-content ,#parts-content2{
+      margin:10px;
+      }
+
+    .contenidoPrincipalMainVideo,
+    select {
+        background-color: #FFF;
+        text-align: center;
+        margin: 1%;
+        transition: .3s;
+        box-shadow: 5px 2px 2px #CCC;
+        list-style: none;
+        quotes: none;
+
+        border: solid 1px rgb(10, 2, 44);
+        border-radius: 20px;
+
+
+    }
+
+    .contenidoPrincipalMainVideo a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .contenidoPrincipalMainVideo,
+    select:hover {
+        box-shadow: 4px 4px 4px #CCC;
+    }
+
+    .contenidoPrincipalMainVideo p:before {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: 10px auto;
+    }
+
+    .contenidoPrincipalMainVideo:nth-child(even) p:before {
+        background: url('https://lh3.googleusercontent.com/d/1tO6nym9_OXbQH0cTPgl1-xR_muDIaXRy') no-repeat;
+    }
+
+
+
+    .contenidoPrincipalMainVideo:nth-child(odd) p:before {
+        background: url('https://lh3.googleusercontent.com/d/1sPkq5Rf5cJY-2d-Q2JXfCteAeCvgv3mw') no-repeat;
+    }
+
+    .seccionUnoVideo {
+        backdrop-filter: blur(50px);
+        background: transparent;
+        border: solid 1px rgb(10, 2, 44);
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    #search-btn {
+        position: relative;
+        bottom: 10px;
+        left: 550px;
+        width: 140px;
+        height: 30px;
+
+        border: solid 1px rgb(10, 2, 44);
+        border-radius: 20px;
+        background: linear-gradient(45deg,
+                rgb(232, 142, 142) 35%,
+                rgb(0, 0, 6) 50%,
+                rgb(232, 142, 142) 70%) center center/350px 50px,
+            rgb(57, 78, 68);
+        overflow: hidden;
+        transition: 3.5s;
+    }
+
+    #search-btn::after {
+        content: "GO";
+        color: white;
+    }
+
+    .overlay {
+        margin: 10px;
+        height: auto;
+        padding: 1%;
+
+        background-color: rgb(231, 166, 166);
+        text-align: center;
+        transition: .3s;
+        list-style: none;
+        quotes: none;
+        box-shadow: 2px 2px 2px #191818aa;
+        transition: 3s;
+
+
+
+    }
+
+    .overlay2 {
+        background: linear-gradient(rgb(84, 49, 49), rgb(220, 160, 170));
+
+        text-align: center;
+        transition: .3s;
+        box-shadow: 5px 4px 8px #1c1a1aaa;
+        color: white;
+        transition: 3s;
+        display: none;
+        height: 120px;
+        padding: 20px 2px;
+        margin: 10px;
+        font-size: 8px;
+        border-style: double;
+        line-height: 2;
+    }
+
+    #toggle-search {
+        display: flex;
+        margin: auto 30px;
+    }
+
+    select,
+    option,
+    optgroup {
+        font-size: 10px;
+        width: 80px;
+    }
+
+    .subtituloVideo {
+        font-size: 30px;
+        color: white;
+        text-shadow: 5px 7px 10px #191818aa;
+        box-shadow: inset -3px 2px 3px 2px rgb(232, 142, 142), 3px 2px 3px 2px rgb(0, 0, 6), inset -3px 2px 3px 2px rgb(0, 0, 6), 3px 2px 3px 5px rgb(232, 142, 142);
+    }
+
+
+
+    @media(max-width: 1000px) {
+        .contenidoPrincipalMain {
+            height: 100px;
+            transition: .3s;
+            width: 80px;
+            list-style: none;
+            quotes: none;
+
+        }
+
+        .contenidoPrincipalMain p,
+        select {
+            margin: 1.333%;
+            font-size: 8px;
+            box-shadow: 2px 2px 2px #191818aa;
+        }
+
+        #search-btn {
+            position: relative;
+            bottom: 10px;
+            left: 85px;
+            width: 140px;
+            height: 30px;
+        }
+
+        #toggle-search {
+            display: flex;
+            margin-left: 30px;
+            width: 20px;
+        }
+
+
+        .botonRegister {
+            cursor: pointer;
+            color: #002D45;
+            box-shadow: 2px 2px 2px #056f6faa;
+            background: #f2eeee;
+            border-style: double;
+        }
+
+
+
+        .subtitulo1 {
+            font-size: 30px;
+        }
+
+        .contenidoPrincipal1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+        }
+
+        .contenidoPrincipalMain1,
+        .img1 {
+            height: auto;
+            transition: .3s;
+            width: 230px;
+            list-style: none;
+            quotes: none;
+        }
+
+        #parts-content {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            gap: 20px;
+        }
+
+    }
+
+    @media(max-width: 769px) {
+        #parts-content {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            gap: 20px;
+        }
+
+        div {
+            width: auto auto;
+        }
+    }
+
+    @media (min-width:321px) and (max-width: 480px) {
+
+
+        #parts-content {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            margin-right: 150px;
+        }
+
+        .imagen {
+            width: 80%;
+
+        }
+
+        .catalog-part {
+            max-width: 320px;
+            margin: 0 auto;
+
+        }
+
+        .subtituloVideo {
+            margin: 0 10px;
+            font-size: 15px;
+        }
+    }
+</style>
+
+  
+          <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+      </script>
+
+
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js"></script>
+
+  </head>
+<body>
+  
+    <IFRAME SRC="https://fastream.to/embed-qkgjo4uez241.html&autoplay=1&start=30&end=60&loop=1&mute=1" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+    <header>
+    </header>
+    
+      <main>
+        <section class="videoSobre">
+            <h1 class="headerPrincipal-titulo">
+                <a href="#"><svg width="64px" height="64px" viewBox="0 0 1024 1024" class="icon" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M715.637 960h171.897C920.348 960 960 932.759 960 898.909V125.091C960 91.243 920.348 64 887.534 64H113.716C77.004 64 64 96.892 64 125.091v773.818C64 927.109 77.004 960 113.716 960h439.012V634.182H410.181c-11.257 0-20.363-9.106-20.363-20.363V491.637c0-11.257 9.106-20.365 20.363-20.365h142.546V328.728c0-99.354 88.056-183.272 192.261-183.272h113.193c11.257 0 20.365 9.106 20.365 20.363V288c0 11.258-9.108 20.365-20.365 20.365h-72.465c-34.444 0-70.079 19.052-70.079 50.908v112h131.17a20.27 20.27 0 0 1 16.507 8.472c3.856 5.291 4.891 12.133 2.823 18.337l-40.728 122.181a20.403 20.403 0 0 1-19.33 13.919h-90.442V960z"
+                                fill="#2577FF"></path>
+                            <path
+                                d="M807.708 451.723h-92.071v19.549h112.288c-0.161-3.938-1.326-7.809-3.711-11.078a20.263 20.263 0 0 0-16.506-8.471zM513.629 940.451H75.445C83.3 951.952 95.599 960 113.716 960h439.012V634.183H513.63v306.268zM839.283 145.456c-0.451-10.855-9.231-19.549-20.198-19.549H705.89c-104.205 0-192.261 83.919-192.261 183.272v142.544H371.083c-11.257 0-20.363 9.108-20.363 20.365v122.181c0 11.258 9.107 20.364 20.363 20.364h18.899c-0.012-0.286-0.164-0.527-0.164-0.815V491.637c0-11.257 9.106-20.365 20.363-20.365h142.546V328.728c0-99.353 88.056-183.272 192.261-183.272h94.295z"
+                                fill=""></path>
+                            <path
+                                d="M900.123 65.251c12.221 10.76 20.778 24.748 20.778 40.29V879.36c0 33.85-39.651 61.091-72.467 61.091H715.637V960h171.896C920.348 960 960 932.759 960 898.909V125.091c0-29.6-30.322-54.141-59.877-59.84z"
+                                fill=""></path>
+                        </g>
+                    </svg></a>
+            </h1>
+            <div class="container3">
+                <div id="contrasena2" class="videoSobre-video"> <img id="contrasenaImagenes" class="imagenes"
+                        src='https://lh3.googleusercontent.com/d/1o2kq5_RJ4PbS7tBQbjKUuSZ6q7ntf_gf?authuser=0' style="width:100%"; /></div>
+
+                <div class="videoSobre-sobre">
+                    <button id="boton" class="videoSobre-button">
+
+                        <!-- icon666.com - MILLIONS vector ICONS FREE --><svg viewBox="0 0 32 32"
+                            xmlns="http://www.w3.org/2000/svg" style="width:30px" ;>
+                            <g id="Layer_43" data-name="Layer 43">
+                                <path
+                                    d="m17.53 16.5-7 10.06a1.73 1.73 0 0 1 -1.43.75h-5.23a.87.87 0 0 1 -.71-1.31l6.54-9.5a.87.87 0 0 0 0-1l-6.54-9.45a.87.87 0 0 1 .71-1.36h5.26a1.73 1.73 0 0 1 1.43.75l7 10.06a.87.87 0 0 1 -.03 1zm11.32-1-7-10.06a1.75 1.75 0 0 0 -1.44-.75h-5.23a.87.87 0 0 0 -.71 1.36l6.53 9.45a.87.87 0 0 1 0 1l-6.53 9.5a.87.87 0 0 0 .71 1.36h5.26a1.75 1.75 0 0 0 1.44-.75l7-10.06a.91.91 0 0 0 -.03-1.05z" />
+                            </g>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+
+                <div class="headerPrincipal">
+
+                    <div class="contenedor">
+                        <ul id="contrasena" class="contenidoPrincipal">
+                            <li class="contenidoPrincipal-link"></li>
+                        </ul>
+
+                        <nav class="main-menuPrincipal">
+                            <a class="menuPrincipal-Links"
+                                href="https://sites.google.com/view/construyendoysobreviviendo?usp=sharing"><svg
+                                    height="24px" width="24px" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128z" />
+                                </svg>
+                            </a>
+                            <div id="indice" class="menuPrincipal-Links"><svg height="24px" width="24px"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M88.7 223.8L0 375.8 0 96C0 60.7 28.7 32 64 32l117.5 0c17 0 33.3 6.7 45.3 18.7l26.5 26.5c12 12 28.3 18.7 45.3 18.7L416 96c35.3 0 64 28.7 64 64l0 32-336 0c-22.8 0-43.8 12.1-55.3 31.8zm27.6 16.1C122.1 230 132.6 224 144 224l400 0c11.5 0 22 6.1 27.7 16.1s5.7 22.2-.1 32.1l-112 192C453.9 474 443.4 480 432 480L32 480c-11.5 0-22-6.1-27.7-16.1s-5.7-22.2 .1-32.1l112-192z" />
+                                </svg>
+
+                            </div>
+
+                            <div class="menuPrincipal-Links">
+                                <li id="login-trigger">
+                                    <a href="#" id="auth-text">
+                                        <img src="https://www.alexandercowan.com/wp-content/uploads/2018/04/login-icon.png"
+                                            alt="auth"
+                                            style="width:35px; background-color: #002D45;border-radius: 30%;"/>
+                                    </a>
+                                </li>
+                            </div>
+                        </nav>
+                    </div>
+
+    </div>
+
+              </div>
+    </section>
+
+
+        <div id="login-content">
+            <!-- On Forms: -->
+            <form id='login-form' method='post' onsubmit="return false">
+                <input type="text" placeholder="Email" id="login_email" required>
+                <input type="password" placeholder="Password" id="login_pwd" required>
+                <button class="botonRegister" type='submit'>Log In</button>
+                <a id='forgotten-link' class="botonRegister">Forgot Password?</a>
+                <h3><a class='auth-link' id='register-link'>Register</a></h3>
+            </form>
+
+            <!-- Registration -->
+            <form id='register-form' method='post' onsubmit="return false">
+                <input type="text" placeholder="Email" id="register_email" required>
+                <input type="password" placeholder="Password" id="register_pwd" required>
+                <input type="password" placeholder="Confirm Password" id="register_re_pwd" required>
+                <button class="botonRegister" type='submit' style="text-align: right;">Register</button>
+                <div id='if-reg-error'>
+                    <div id='reg-error-response' style="margin-top: 5px;"></div>
+                </div>
+            </form>
+
+            <!-- Password Recovery -->
+            <form id='forgotten-form' method='post' onsubmit="return false">
+                <div id='before-reset'><input type="text" placeholder="Email" id="recovery_email" required>
+                    <button class="botonRegister" type='submit'>Recover</button>
+                </div>
+                <div id='after-reset'>
+                    <div id='reset-response' style="margin-top: 5px;">
+                        <p>Reset instructions are on their way to <span id='submitted-email'>email</span>. If you're
+                            still having trouble with login, please get in touch.</p>
+
+
+                        <p><a id='login-link-modal' href='#'>Log In</a>
+                        </p>
+                    </div>
+                </div>
+                <div id='if-error'>
+                    <div id='error-response' style="margin-top: 5px;"></div>
+                </div>
+            </form>
+
+        </div>
+
+
+
+
+
+        <div id="headerPrincipal1" class="container">
+            Search By
+            <nav class="seccionUnoVideo">
+                <ul class="contenidoPrincipalVideo">
+
+                    <li class="contenidoPrincipalMainVideo">
+                        <p>
+                            <select id="dd-mfr">
+                                <option value="All">LECCION 1</option>
+                                <option value="capitulo1">capitulo1</option>
+                                <option value="capitulo2">capitulo2</option>
+                                <optgroup label="capitulo 3">
+                                    <option value="capitulo3">leccion 1</option>
+                                    <option value="capitulo3Ejemplo">ejemplos</option>
+                                </optgroup>
+                                <optgroup label="capitulo 4">
+                                    <option value="capitulo4">Leccion 1</option>
+                                    <option value="capitulo4Ejemplo">ejemplos</option>
+                                </optgroup>
+                                <optgroup label="capitulo 5">
+                                    <option value="capitulo5">Leccion 1</option>
+                                    <option value="capitulo5Ejemplo">ejemplos</option>
+                                </optgroup>
+                            </select>
+                    </li>
+
+                    <li class="contenidoPrincipalMainVideo">
+                        <p>
+                            <select id="dd-mfr2">
+                                <option value="All">LECCION 2</option>
+                                <option value="leccion2.1">Leccion 2.1</option>
+                                <optgroup label="leccion2.2"></optgroup>
+                                <optgroup label="leccion2.3"></optgroup>
+                            </select>
+                    </li>
+
+                </ul>
+                <button type="button" id='search-btn'></button>
+
+            </nav>
+        </div>
+
+
+        <div id="parts-content" class="contenidoPrincipal"></div>
+
+        <div id="parts-content2"></div>
+
+  </main>
+        <script>
+            let contador = 0
+            let contador2 = 0
+            var boton = document.getElementById("boton");
+            let contrasena = document.getElementById("contrasena");
+
+            const cadenaCaracteres = ["ESPERANTO", "esperanto"];
+
+
+            var listaImagenes = ['https://lh3.googleusercontent.com/d/1wwHcgtis1mkRbMg9HTg080xe1eSXU7z3?authuser=0',
+                'https://lh3.googleusercontent.com/d/1HQ_USdbzOlTppQINHKO0jwjckrCopVKw?authuser=0',
+                'https://lh3.googleusercontent.com/d/1mQji2MCrr6zSdEoHUh0ruFQczVFpeuY7?authuser=0'
+            ];
+
+
+
+            function generar() {
+                for (let i = 0; i < cadenaCaracteres.length; i++) {
+                    let password = cadenaCaracteres[contador];
+                    contrasena.innerHTML = password;
+                    console.log(password);
+                    if (contador == cadenaCaracteres.length) {
+                        contador = 0
+                    }
+                }
+                contador++
+            }
+            function generar2() {
+                for (let i = 0; i < listaImagenes.length; i++) {
+                    if (contador2 == listaImagenes.length) {
+                        contador2 = 0
+                    }
+                    contrasena2.innerHTML = ('<img class="imagenes" src=' + listaImagenes[contador2] + '>');
+                }
+                contador2++
+            }
+            boton.onclick = generar2;
+            setInterval(generar, 5000)
+
+
+
+            $("#parts-content2").hide()
+
+            $("#indice").on("click", function () {
+                $("#parts-content2").toggle()
+            })
+        </script>
+
+<script src="https://rawcdn.githack.com/joberDigital/file/49f794a0d8ff3b9e3171ac2678288481927f5140/showImg.js"></script>
+
+<script type="module" src="https://cdn.jsdelivr.net/gh/joberDigital/file@master/selectores.js">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
+</script>
+  
+  </body>

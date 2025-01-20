@@ -1,0 +1,169 @@
+body {
+    background-color: #f0f0f0; /* Gray 300 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 1180px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #DEE2E7);
+    background: #FFF;
+    margin: 0 auto; 
+    margin-bottom:24px;
+}
+.template {
+display: none; /* Inicialmente oculta todas las plantillas */
+}
+.active {
+display: block;
+}
+.bodyApp {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-image: url('https://actechalumni.org/wp-content/uploads/elementor/thumbs/applied-science-phjf9zqgj0as3u2oh9ht3zwemu8mw14kkyhd9koso8.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+   width: auto;
+    height:auto;
+     
+      }
+
+.headerPrincipal{
+    background: transparent;
+    backdrop-filter: blur(2px); 
+    padding: 5px 10px;
+  text-align: end;
+  margin: 5px;
+  border-radius: 10%;
+  border:10px double;
+  border-top: none;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  box-shadow:inset 10px -10px 25px black;
+  }
+  .headerPrincipal-titulo {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 3px gainsboro;
+  }
+.texto{
+border: groove 5px #808285;
+width: auto;
+padding: 10px;
+font-size: 10px;
+background: rgb(198, 198, 189);
+}
+
+.catalog-part{
+    font-family: Proxima Nova, helvetica neue, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: auto;
+    color: #ffffff;
+    border-color: white;
+    box-shadow: inset 0 3px 5px white;
+    width: auto;
+    padding: 10px;
+    margin: 5px 1px;
+    align-items: center;
+    color: inherit;
+    border:solid 1px ;
+    border-top: none;
+    border-left: none;
+}
+.catalog-part:hover {
+    background-color: #ddd;
+  }
+
+  .catalog-part.active {
+    background-color: #4CAF50; /* Green on hover */
+    color: white;
+  }
+  .catalog-part:last-child {
+    background-color: #4CAF50; /* Green on hover */
+    border-top: none;
+    border-bottom-right-radius: 33%;
+    border-bottom-left-radius: 10%;
+    width:auto;
+    margin: auto auto;
+    list-style: none;
+}
+/* botones */
+input{
+    outline: none;
+    background:rgb(246, 195, 246);
+}.column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px; /* Espacio entre botones */
+}.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+width: auto;
+grid-gap: 20px 10px; /* Espacio horizontal y vertical */
+padding: 20px 20px;
+list-style-type: none;
+}
+
+.siginificado{
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ 
+    padding:10px 0;
+    box-shadow:inset 10px -10px 25px black;      
+    font-size: 10px;
+}
+
+
+.inglesPresente{
+    background-color: #b0cadd;
+    color: #fff;
+    text-align: center;
+    box-shadow:inset 10px -10px 25px black;      
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Add padding here */
+    width: auto;
+    height: auto;
+    letter-spacing: 2px;
+    line-break: strict;
+    overflow-wrap: break-word;
+    tab-size: 4;
+text-indent: auto;
+word-break: break-all;
+margin: 20px;
+box-sizing: border-box;
+}
+.headerPrincipal .inglesPresente:nth-child(2){
+display: flex;
+padding-left: 30%;
+text-align: end;
+}
+   i{
+    font-size: 25px;
+        border:solid 4px ;
+        border-top: none;
+        border-left: none;
+       }
+       .botonCatalog-part{
+        background: transparent;
+    backdrop-filter: blur(2px); 
+    color: #ffffff;
+    border-color: white;
+    box-shadow: inset 0 3px 5px white;
+    border-bottom-right-radius: 33%;
+    border-bottom-left-radius: 10%;
+    margin: auto auto;
+    list-style: none;
+}
